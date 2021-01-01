@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: navy;
+	color: #fff;
+}
+h1,h3,p{
+	text-align: center;
+	line-height: 100px;
+}
+
+button{
+	width: 100px;
+	padding: 10px;
+	margin: 0 45%;
+}
+
+input{
+	width: 100px;
+	padding: 10px;
+	margin: 0 0%;
+}
+.viv{
+  width: 40%;
+  margin: 10rem 30%;
+  height: 250px;
+  background: linear-gradient(to left, #820808, #072225);
+  padding: 5rem 0px;
+  text-align: center;
+  border:3px solid #fff;
+}
+
+button:hover {
+	width: 120px;
+	background: red;
+	color: #fff;
+}
+
+.bean{
+	width: 100%;
+	height: 200px;
+	background: #04042f;
+	color: #fff;
+	padding: 20px;
+}
+.laugh{
+	height: 350px;
+}
+.beans{
+	background: red;
+	color: #fff;
+}
+
+.beans ul{
+	margin: 70px 25%;
+}
+
+.beans ul li{
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.beans ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.hit{
+	border: 2px solid;
+	text-align: center;
+	line-height: 30px;
+}
+.foot{
+	background: #000;
+	line-height: 50px;
+	text-align: center;
+}
+.t_frame{
+	background: navy;
+	width: 20%;
+	float: left;
+	position: relative;
+	/*height: 200px;*/
+}
+.t_frame p{
+	line-height: 50px;
+	font-size: 2em;
+}
+.t_frame2 {
+	float: right;
+}
+#demo3{
+	background: red;
+	color: #fff;
+	width: 15%;
+	margin: 10px 43%;
+	font-size: 2em;
+}
+
+/*for the scroll stuff*/
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+input[type=button]{
+	background: red;
+	outline: none;
+	border:none;
+	margin: 2rem 0px;
+	cursor: pointer;
+	border-radius: 5px;
+	color: #fff;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+/*body {height:500px;}*/
+/*.col-1 {float:left}
+.col-2 {float:left;padding-left:25px;}*/
+img {width:180px;
+		height:100px;
+		visibility:hidden;}
+hr {margin-top:40px;}
