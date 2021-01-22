@@ -34,56 +34,12 @@ function myTimer() {
   document.getElementById("demon").innerHTML = d.toLocaleTimeString();
 }
 
-// var d = new Date();
-// document.getElementById('shori2').innerHTML = d.getTime();
-// console.log(d);
-
-// x = 30;
-// y = 20;
-// z = x + y;
-// document.getElementById("shori2").innerHTML = z;
-// // if (z > 20) {
-// //   alert(true);
-//   }
-
-// date
-// var day;
-//   switch (new Date().getDay()){
-//     case 0:
-//       day = "Sunday";
-//       break;
-
-//       case 1:
-//       day = "Monday";
-//       break;
-
-//       case 2:
-//       day = "Tuesday";
-//       break;      
-
-//       case 3:
-//       day = "Wednesday";
-//       break;      
-
-//       case 4:
-//       day = "Thursday";
-//       break;
-
-//       case 5:
-//       day = "Friday";
-//       break;      
-
-//       case 6:
-//       day = "Saturday";
-//   }
-//   document.getElementById("shori2").innerHTML = "Today is" + day;
-
 
 // Count Down Shiit
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 1, 2021 12:00:00").getTime();
+var countDownDate = new Date("Jan 22, 2021 12:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
